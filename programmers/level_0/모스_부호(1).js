@@ -27,7 +27,7 @@ morse = {
   '--..': 'z',
 };
 
-// 내 풀이
+// 제출한 답
 function solution(letter) {
   return letter
     .split(' ')
@@ -35,7 +35,7 @@ function solution(letter) {
     .join('');
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(letter) {
   return letter.split(' ').reduce((prev, curr) => prev + morse[curr], '');
 }

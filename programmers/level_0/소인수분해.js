@@ -1,3 +1,4 @@
+// 제출한 답
 function solution(n) {
   let array = [];
 
@@ -13,7 +14,7 @@ function solution(n) {
   return [...new Set(array)].sort((a, b) => a - b);
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(n) {
   let answer = [];
   let i = 2;

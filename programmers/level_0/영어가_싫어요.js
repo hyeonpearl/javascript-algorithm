@@ -1,3 +1,4 @@
+// 제출한 답
 function solution(numbers) {
   const nums = {
     zero: 0,
@@ -16,7 +17,7 @@ function solution(numbers) {
   return Number(numbers.replace(regex, key => nums[key]));
 }
 
-// 다른 사람 풀이 #1
+// 다른 풀이 #1
 function solution(numbers) {
   const obj = {
     zero: 0,

@@ -1,3 +1,4 @@
+// 제출한 답
 function solution(s) {
   return s
     .split(' ')

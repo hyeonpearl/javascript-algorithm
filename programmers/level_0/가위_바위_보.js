@@ -1,10 +1,10 @@
-// 내 풀이
+// 제출한 답
 function solution(rsp) {
   const answer = { 0: 5, 2: 0, 5: 2 };
   return [...rsp].map(el => answer[el]).join('');
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(rsp) {
   return rsp
     .split('')

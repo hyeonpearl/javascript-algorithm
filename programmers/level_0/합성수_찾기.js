@@ -1,4 +1,4 @@
-// 다른 사람 풀이
+// 제출한 답
 function solution(n) {
   const isPrime = num => {
     for (let i = 2; i <= Math.sqrt(num); i++) {
@@ -16,6 +16,7 @@ function solution(n) {
   return count;
 }
 
+// 다른 풀이 #1
 function solution(n) {
   let dp = new Array(n + 1).fill(1);
 
@@ -30,6 +31,7 @@ function solution(n) {
   return dp.filter(el => el === 0).length;
 }
 
+// #2
 function solution(n) {
   return Array(n)
     .fill()

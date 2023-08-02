@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(n) {
   let answer = 0;
   for (let char of n.toString()) {
@@ -7,7 +7,7 @@ function solution(n) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(n) {
   return n
     .toString()

@@ -1,3 +1,4 @@
+// 제출한 답
 function solution(babbling) {
   const regexp1 = /(aya|ye|woo|ma)\1+/;
   const regexp2 = /^(aya|ye|woo|ma)+$/;

@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(age) {
   const array = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
   const ageArray = String(age).split('');
@@ -12,7 +12,7 @@ function solution(age) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(age) {
   return age
     .toString()

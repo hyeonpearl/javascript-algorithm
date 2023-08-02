@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(my_string, num1, num2) {
   const answer = [...my_string];
 
@@ -7,13 +7,14 @@ function solution(my_string, num1, num2) {
   return answer.join('');
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(my_string, num1, num2) {
   my_string = my_string.split('');
   [my_string[num1], my_string[num2]] = [my_string[num2], my_string[num1]];
   return my_string.join('');
 }
 
+// #2
 function solution(my_string, num1, num2) {
   return my_string
     .split('')

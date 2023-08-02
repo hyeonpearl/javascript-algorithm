@@ -1,4 +1,4 @@
-// 다른 사람 풀이
+// 제출한 답
 function solution(n) {
   let factorial = [1, 1];
   for (let i = 2; n > factorial[i - 1]; i++) {
@@ -11,6 +11,7 @@ function solution(n) {
     : factorial.length - 2;
 }
 
+// 다른 풀이 #1
 function solution(n) {
   let i = 1;
   let f = 1;
@@ -18,6 +19,7 @@ function solution(n) {
   return i - 1;
 }
 
+// #2
 function solution(n) {
   for (let i = 1, v = 1; true; v *= ++i) if (v > n) return --i;
 }

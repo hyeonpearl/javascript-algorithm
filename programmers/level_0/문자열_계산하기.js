@@ -1,9 +1,10 @@
+// 제출한 답
 function solution(my_string) {
   const answer = new String(my_string);
   return eval(answer.toString());
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(my_string) {
   return new Function('return ' + my_string)(); //eval(my_string);
 }

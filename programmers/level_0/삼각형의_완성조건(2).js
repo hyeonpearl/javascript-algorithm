@@ -1,8 +1,9 @@
+// 제출한 답
 function solution(sides) {
   return Math.min(...sides) * 2 - 1;
 }
 
-// 다른 풀이
+// 다른 풀이 #1
 function solution(sides) {
   let a = Math.min(...sides);
   let b = Math.max(...sides);

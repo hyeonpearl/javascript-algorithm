@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 // 약수의 개수 = 순서쌍
 function solution(n) {
   const answer = [];
@@ -12,7 +12,7 @@ function solution(n) {
   return answer.length;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(n) {
   let ans = 0;
   for (let i = 1; i < Math.sqrt(n); i++) if (n % i === 0) ans += 2;

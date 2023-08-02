@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(s1, s2) {
   let answer = 0;
 
@@ -11,7 +11,7 @@ function solution(s1, s2) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(s1, s2) {
   return s1.filter(v => s2.includes(v)).length;
 }

@@ -1,3 +1,4 @@
+// 제출한 답
 function solution(price) {
   switch (true) {
     case price >= 100000 && price < 300000: {

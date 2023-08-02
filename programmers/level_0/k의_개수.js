@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(i, j, k) {
   let answer = 0;
 
@@ -13,7 +13,7 @@ function solution(i, j, k) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(i, j, k) {
   let a = '';
   for (i; i <= j; i++) {
@@ -23,6 +23,7 @@ function solution(i, j, k) {
   return a.split(k).length - 1;
 }
 
+// #2
 function solution(i, j, k) {
   let str = Array(j - i + 1)
     .fill(i)

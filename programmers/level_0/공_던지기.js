@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(numbers, k) {
   let current = 0;
   const throughTheBall = current => (current + 2) % numbers.length;
@@ -8,7 +8,7 @@ function solution(numbers, k) {
   return numbers[current];
 }
 
-// 다른 사람 풀이 #1
+// 다른 풀이 #1
 function solution(numbers, k) {
   return numbers[(--k * 2) % numbers.length];
 }

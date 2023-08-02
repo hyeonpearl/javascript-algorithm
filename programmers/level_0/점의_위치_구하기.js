@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(dot) {
   return dot[0] >= 0 && dot[1] >= 0
     ? 1
@@ -9,7 +9,7 @@ function solution(dot) {
     : 4;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(dot) {
   // 구조 분해
   const [num, num2] = dot;

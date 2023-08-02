@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(array, height) {
   var answer = 0;
   for (let i = 0; i < array.length; i++) {
@@ -9,7 +9,7 @@ function solution(array, height) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(array, height) {
   var answer = array.filter(item => item > height);
   return answer.length;

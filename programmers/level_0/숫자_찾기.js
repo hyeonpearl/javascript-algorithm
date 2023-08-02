@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(num, k) {
   const answer = String(num)
     .split('')
@@ -8,7 +8,7 @@ function solution(num, k) {
   return answer !== -1 ? answer + 1 : -1;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(num, k) {
   return (
     num

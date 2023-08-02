@@ -1,3 +1,4 @@
+// 제출한 답
 function solution(my_string) {
   let answer = 0;
 
@@ -10,11 +11,12 @@ function solution(my_string) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(my_string) {
   return my_string.split(/\D+/).reduce((acc, cur) => acc + Number(cur), 0);
 }
 
+// #2
 function solution(my_string) {
   return my_string
     .replace(/[A-z]/g, ' ')

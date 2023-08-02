@@ -1,3 +1,4 @@
+// 제출한 답
 function solution(n) {
   let answer = [];
 

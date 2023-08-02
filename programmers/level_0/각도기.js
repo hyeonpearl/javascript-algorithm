@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(angle) {
   switch (true) {
     case angle > 0 && angle < 90: {
@@ -19,7 +19,7 @@ function solution(angle) {
   }
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(angle) {
   return [0, 90, 91, 180].filter(x => angle >= x).length;
 }

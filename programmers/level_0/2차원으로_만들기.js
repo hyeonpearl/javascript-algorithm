@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(num_list, n) {
   let result = [];
   for (let i = 0; i < num_list.length / n; i++) {
@@ -7,7 +7,7 @@ function solution(num_list, n) {
   return result;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(num_list, n) {
   return Array(num_list.length / n)
     .fill([])

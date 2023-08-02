@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 {
   const readline = require('readline');
   const rl = readline.createInterface({
@@ -25,7 +25,7 @@
   });
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 {
   const readline = require('readline');
   const rl = readline.createInterface({

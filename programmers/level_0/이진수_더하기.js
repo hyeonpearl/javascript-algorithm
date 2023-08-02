@@ -1,9 +1,9 @@
-// 내 풀이
+// 제출한 답
 function solution(bin1, bin2) {
   return (parseInt(bin1, 2) + parseInt(bin2, 2)).toString(2);
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(bin1, bin2) {
   let temp = Number(bin1) + Number(bin2);
   temp = [...temp.toString()].reverse().map(v => +v);

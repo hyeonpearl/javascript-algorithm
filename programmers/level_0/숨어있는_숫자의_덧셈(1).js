@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(my_string) {
   let answer = 0;
   Array.from(my_string)
@@ -7,7 +7,7 @@ function solution(my_string) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(my_string) {
   const answer = my_string
     .replace(/[^0-9]/g, '')
@@ -16,6 +16,7 @@ function solution(my_string) {
   return answer;
 }
 
+// #2
 function solution(my_string) {
   return [...my_string].reduce(
     (acc, cur) => (Number(cur) ? +acc + +cur : acc),

@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(my_string) {
   let answer = '';
   for (let char of my_string) {
@@ -9,11 +9,12 @@ function solution(my_string) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(my_string) {
   return my_string.replace(/[aeiou]/g, '');
 }
 
+// #2
 function solution(my_string) {
   return Array.from(my_string)
     .filter(t => !['a', 'e', 'i', 'o', 'u'].includes(t))

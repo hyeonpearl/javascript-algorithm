@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(hp) {
   const general = 5;
   const soldier = 3;
@@ -11,7 +11,7 @@ function solution(hp) {
   );
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(hp) {
   const 장군개미 = Math.floor(hp / 5);
   const 병정개미 = Math.floor((hp - 장군개미 * 5) / 3);

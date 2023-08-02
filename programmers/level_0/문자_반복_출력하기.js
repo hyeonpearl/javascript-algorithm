@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(my_string, n) {
   let answer = '';
   const array = my_string.split('');
@@ -10,7 +10,7 @@ function solution(my_string, n) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(my_string, n) {
   var answer = [...my_string].map(v => v.repeat(n)).join('');
 

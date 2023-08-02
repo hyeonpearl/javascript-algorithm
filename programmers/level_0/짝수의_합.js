@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(n) {
   var answer = 0;
   for (let i = 0; i <= n; i++) {
@@ -7,12 +7,13 @@ function solution(n) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(n) {
   var half = Math.floor(n / 2);
   return half * (half + 1);
 }
 
+// #2
 function solution(n) {
   var answer = 0;
 

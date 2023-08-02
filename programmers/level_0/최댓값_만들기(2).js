@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(numbers) {
   const answer = numbers.sort((a, b) => b - a);
   return Math.max(
@@ -7,7 +7,7 @@ function solution(numbers) {
   );
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(numbers) {
   return [
     ...new Set(

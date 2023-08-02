@@ -1,4 +1,4 @@
-// 내 풀이
+// 제출한 답
 function solution(my_string) {
   let answer = '';
   my_string.split('').forEach(item => {
@@ -9,7 +9,7 @@ function solution(my_string) {
   return answer;
 }
 
-// 다른 사람 풀이
+// 다른 풀이 #1
 function solution(my_string) {
   var answer = '';
   for (let c of my_string)
@@ -17,6 +17,7 @@ function solution(my_string) {
   return answer;
 }
 
+// #2
 function solution(my_string) {
   return my_string
     .split('')

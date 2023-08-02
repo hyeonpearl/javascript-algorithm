@@ -1,4 +1,4 @@
-// 다른 사람 풀이
+// 제출한 답
 function solution(s) {
   const count = [...s].reduce(
     (a, c) => (a[c] ? { ...a, [c]: a[c] + 1 } : { ...a, [c]: 1 }),
@@ -11,6 +11,7 @@ function solution(s) {
     .join('');
 }
 
+// 다른 풀이 #1
 function solution(s) {
   let res = [];
 
@@ -19,12 +20,14 @@ function solution(s) {
   return res.sort().join('');
 }
 
+// #2
 var solution = s =>
   [...s]
     .filter(c => s.match(new RegExp(c, 'g')).length == 1)
     .sort()
     .join('');
 
+// #3
 function solution(s) {
   const m = new Map();
 
